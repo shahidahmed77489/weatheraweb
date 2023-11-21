@@ -1,0 +1,11 @@
+.dayCast{
+             width: 216px;
+             line-height: 30px;
+            background-color: rgba(58, 58, 57, 0.2392156863);
+                border-radius: 10px;
+            color: #fff;
+            font-size: 17px;
+            @media screen and (max-width:768px){
+                padding: 0 30px;
+            }
+        }

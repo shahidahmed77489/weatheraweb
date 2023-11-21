@@ -1,0 +1,45 @@
+.realTime{
+    &__temperature{
+        color: #fff;
+        &__degreeCelcius{
+                font-size: 60px;
+                    color: #ff9b00;
+        }
+    }
+    &__highlightsSection{
+
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 20px;
+            row-gap: 10px;
+            margin-top: 30px;
+            @media screen and (max-width:768px){
+                column-gap: 20px;
+                justify-content: center;
+                margin: 30px auto;
+            }
+        &__design {
+                width: 140px;
+                height: 90px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                background-color: #3a3a393d;
+                border-radius: 10px;
+                &__content{
+                    font-size: 20px;
+                }
+         @media screen and (max-width:768px){
+                padding: 20px;
+        }
+            }
+    }
+    &__headingSection{
+        margin-top: 30px;
+        text-decoration: underline;
+        font-family: monospace;
+    }
+        
+}
